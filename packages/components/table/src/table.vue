@@ -162,7 +162,7 @@ import { hColgroup } from './h-helper'
 import { useScrollbar } from './composables/use-scrollbar'
 
 import type { Table } from './table/defaults'
-
+console.log(11111)
 let tableIdSeed = 1
 export default defineComponent({
   name: 'ElTable',
